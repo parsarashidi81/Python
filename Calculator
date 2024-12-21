@@ -1,0 +1,18 @@
+num1 = float(input('Enter the first number: '))
+num2 = float(input('Enter the second number: '))
+
+print('What operation you like?')
+op = str(input('ADD/SUB/MUL/DIV: '))
+
+if op == 'ADD' or op == 'add' or op == 'Add':
+    res = num1 + num2
+elif op == 'SUB' or op == 'sub' or op == 'Sub':
+    res = num1 - num2
+elif op == 'MUL' or op == 'mul' or op == 'Mul':
+    res = num1 * num2
+elif op == 'DIV' or op == 'div' or op == 'div':
+    if num2 == 0:
+        res = 'Impossible'
+    else:
+        res = num1/num2
+print(res)
