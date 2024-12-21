@@ -1,0 +1,22 @@
+A = float(input("Enter the amount that you have: "))
+P = float(input("Enter the amount to pay: "))
+C = int(input("Do you confirm it? (1 for Yes, 2 for No) "))
+if (C == 1):
+    print("Any tips? \n")
+    T = int(input("1. 10% | 2. 15% | 3. 20% | 4. No tip\n"))
+    if (T == 1):
+        P = P + (P*0.1)
+        print(P)
+    elif (T == 2):
+        P = P + (P*0.15)
+        print(P)
+    elif (T == 3):
+        P = P + (P*0.2)
+        print(P)
+    elif (T == 4):
+        P = P
+        print(P)
+    R = A - P
+    print("You now have " + str(R) + " left in your account.")
+else:
+    print("Payment canceled!")
