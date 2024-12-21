@@ -1,0 +1,19 @@
+import random
+R = random.randint(1,10)
+print(R)
+
+G = int(input("Enter a random number: "))
+
+n = 1
+while (G != R):
+    if (G < R):
+        print("Too low")
+        n += 1
+        G = int(input("Enter a random number: "))
+    elif (G > R):
+        print("Too high")
+        n += 1
+        G = int(input("Enter a random number: "))
+        
+print("Correct!")
+print("You got it right after " + str(n) + " tries.")
