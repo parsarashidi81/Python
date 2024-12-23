@@ -1,0 +1,174 @@
+score = 0
+print('Answer the following question')
+print("Question 1")
+print('2+2=?')
+print("""a)1
+b)2
+c)3
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'd':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+
+print("\nQuestion 2")
+print('5+5=?')
+print("""a)1
+b)2
+c)10
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'c':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+print("\nQuestion 3")
+print('5+7=?')
+print("""a)12
+b)2
+c)10
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'a':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+print("\nQuestion 4")
+print('5*7=?')
+print("""a)12
+b)35
+c)10
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'b':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)    
+
+print("\nQuestion 5")
+print('20/2=?')
+print("""a)12
+b)15
+c)10
+d)20""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'c':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+print("\nQuestion 6")
+print('5*10=?')
+print("""a)12
+b)2
+c)50
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'c':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+print("\nQuestion 7")
+print('80/10=?')
+print("""a)12
+b)8
+c)50
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'b':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+print("\nQuestion 8")
+print('5^2=?')
+print("""a)12
+b)2
+c)50
+d)25""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'd':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+print("\nQuestion 9")
+print('9*10=?')
+print("""a)90
+b)2
+c)50
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'a':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+print("\nQuestion 10")
+print('100/10=?')
+print("""a)12
+b)2
+c)10
+d)4""")
+ans = str(input("Enter the correct letter: "))
+
+if ans == 'c':
+    print('correct')
+    score = score + 1
+    print(score)
+else:
+    print('incorrect')
+    score = score
+    print(score)
+    
+final = score * 10
+print(final, "%")
