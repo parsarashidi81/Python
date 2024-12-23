@@ -1,0 +1,23 @@
+//This code is the conversion between three units of Celcius, Fahrenheit, and Kelvin
+
+cel = float(input('Enter the temperature: '))
+print('Enter the unit')
+unit = str(input('C (Celcius) or F (Fahrenheit) or K (Kelvin): '))
+
+if unit == 'C':
+    F = (cel*(9/5))+32
+    K = cel + 273.15
+    print('Temperature = ', F, ' Fahrenheit')
+    print('Temperature = ', K, ' Kelvin')
+elif unit == 'F':
+    C = (cel-32)*(5/9)
+    K = (cel-32)*(5/9)+273.15
+    print('Temperature = ', C, ' Celcius')
+    print('Temperature = ', K, ' Kelvin')
+elif unit == 'K':
+    F = (cel-273.15)*9/5+32
+    C = cel-273.15
+    print('Temperature = ', F, ' Fahrenheit')
+    print('Temperature = ', C, ' Celcius')
+else:
+    print('ERROR')
