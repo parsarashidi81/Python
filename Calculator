@@ -10,7 +10,7 @@ elif op == 'SUB' or op == 'sub' or op == 'Sub':
     res = num1 - num2
 elif op == 'MUL' or op == 'mul' or op == 'Mul':
     res = num1 * num2
-elif op == 'DIV' or op == 'div' or op == 'div':
+elif op == 'DIV' or op == 'div' or op == 'Div':
     if num2 == 0:
         res = 'Impossible'
     else:
