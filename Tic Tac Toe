@@ -10,11 +10,12 @@ for row in field:
     print("|".join(row))
 
 ans = str(input("Enter your symbol (X/O): "))
-posRow = int(input("Which row (Starting from 0): "))
-posCol = int(input("Which column (Starting from 0): "))
-
-
-field[posRow][posCol] = ans
+if ans != "X" or ans!= "O":
+    print("Wrong symbols!")
+else:
+    posRow = int(input("Which row (Starting from 0): "))
+    posCol = int(input("Which column (Starting from 0): "))
+    field[posRow][posCol] = ans
 
 for row in field:
     print("|".join(row))
