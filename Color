@@ -1,0 +1,9 @@
+from colorama import Fore, Back, Style
+
+#Fore is for text color
+#Back is for background color
+#Style is for text brightness or resetting formatting
+
+print(Fore.RED + "This is red text")
+print(Back.BLACK + "This has a yellow background")
+print(Style.BRIGHT + "Bright text" + Style.RESET_ALL)
